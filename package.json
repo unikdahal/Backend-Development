@@ -1,0 +1,23 @@
+{
+  "name": "backend-development",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unikdahal/Backend-Development.git"
+  },
+  "author": "Unik Dahal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unikdahal/Backend-Development/issues"
+  },
+  "homepage": "https://github.com/unikdahal/Backend-Development#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
