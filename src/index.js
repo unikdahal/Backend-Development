@@ -1,6 +1,11 @@
-import mongoose from "mongoose";
-import { DB_NAME } from "./constant";
-import express from "express";
+import dotenv from "dotenv";
+import connectDB from "./db/index.js";
+
+dotenv.config({
+  path: "./env",
+});
+
+connectDB();
 
 /* Code for connecting database in the same index.js file
 
